@@ -3,7 +3,7 @@
   requirement: Должен открыться сайт магазина со списком товаров 
   prerequisites: Открыт сайт https://ru.hexlet.io/projects/84/members/36184?step=4
   steps: Нажать на ссылку с адресом магазина https://hexlet-products-store.vercel.app/
-  expected-result: Открывается сайт магазина  без списка товаров. 
+  expected-result: Открывается сайт магазина со списком товаров. 
 ---
 - summary: Проверка кнопки "Корзина"
   requirement: При нажатии кнопки должна открыться корзина
