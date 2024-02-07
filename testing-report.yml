@@ -1,6 +1,6 @@
 ---
 - summary: Переход по сслыке на сайт магазина
-  status: fail
+  status: Pass
 ---
 - summary: Проверка кнопки "Корзина"
   status: Pass
@@ -18,4 +18,13 @@
   status: Pass
 ---
 - summary: Проверка cсылки на сайт разработчика  
+  status: Pass
+---
+- summary: Проверка расположения поисковой строки
+  status: Fail
+---
+- summary: Проверка расположения кнопки "Фильтры" 
+  status: Fail
+---
+- summary: Gроверка совместимости с мобильными устройствами
   status: Pass
