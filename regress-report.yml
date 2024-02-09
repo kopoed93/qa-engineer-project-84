@@ -19,7 +19,7 @@ test-cases:
    status: Pass
 
  - summary: Проверка cсылки на сайт разработчика  
-   status: Fail
+   status: Pass
 
  - summary: Проверка расположения поисковой строки
    status: Pass
