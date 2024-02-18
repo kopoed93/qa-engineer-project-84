@@ -59,5 +59,84 @@
 ---
 - summary: Проверка работы кнопки "Предыдущая"
   status: Pass
+---    
 bugreports:
-  -summary: Не работает форма поиска 
+  
+- summary: Не работает Поиск, фильтры и пропадает кнопка "Следующая" если убрать галочку в чекбоксе "В наличии"
+  environment: Google Chrome Версия 120.0.6099.218 (Официальная сборка), (64 бит)
+    Выпуск	Windows 10 Pro
+    Версия	22H2
+    Дата установки	‎20.‎01.‎2022
+    Сборка ОС	19045.3930
+  steps-to-reproduce: 1. Нажать кнопку "Следующая"
+    2. Нажать кнопку "Следующая"
+    3. Убрать галочку в чекбоксе "В наличии"
+  expected-results: Форма должна обработать только запрос по поиску товара и оставить его на странице магазина
+  actual-results: Форма поиска работает но при этом пропадают кнопки навигации по сайту
+---       
+- summary: Не работает кнопа "Следующая" при введинии любых данных в поле поиска
+  environment: Google Chrome Версия 120.0.6099.218 (Официальная сборка), (64 бит)
+    Выпуск      Windows 10 Pro
+    Версия      22H2
+    Дата установки      <200e>20.<200e>01.<200e>2022
+    Сборка ОС   19045.3930
+  steps-to-reproduce: 1. Нажать кнопку "Следующая" 
+    2. Ввести в поле поиска любые вылидные данные (A-z,А-я,_+№";...)
+  expected-results: Форма должна обработать только запрос по поиску товара и оставить его на странице магазина
+  actual-results: Форма поиска работает но при этом пропадает кнопка "Следующая"
+
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+ - summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:    
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:
+- summary:
+  environment:
+  steps-to-reproduce:
+  expected-results:
+  actual-results:    
