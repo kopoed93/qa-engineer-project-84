@@ -1,64 +1,65 @@
 
 ---
-- summary: Проверка кнопки "Категория"
-  status: pass
+test-cases:
+ - summary: Проверка кнопки "Категория"
+   status: pass
 
-- summary: Добавление товара в корзину
-  status: pass
+ - summary: Добавление товара в корзину
+   status: pass
 
-- summary: Проверка работы счётчика на кнопке  "Корзина"
-  status: pass
+ - summary: Проверка работы счётчика на кнопке  "Корзина"
+   status: pass
 
-- summary: Проверка кнопки "Корзина"
-  status: pass
+ - summary: Проверка кнопки "Корзина"
+   status: pass
 
-- summary: Проверка кнопки "Продолжить покупки"
-  status: pass
+ - summary: Проверка кнопки "Продолжить покупки"
+   status: pass
 
-- summary: Проверка работы кнопки "Очистить корзину"
-  status: pass
+ - summary: Проверка работы кнопки "Очистить корзину"
+   status: pass
 
-- summary: Проверка кнопки "Магазин"
-  status: pass
+ - summary: Проверка кнопки "Магазин"
+   status: pass
 
-- summary: Проверка работы кнопки "Удалить"
-  status: pass
+ - summary: Проверка работы кнопки "Удалить"
+   status: pass
 
-- summary: Проверка работы кнопки "Удалить"
-  status: pass
+ - summary: Проверка работы кнопки "Удалить"
+   status: pass
 
-- summary: Проверка кнопки "Оформить заказ"
-  status: pass
+ - summary: Проверка кнопки "Оформить заказ"
+   status: pass
 
-- summary: Проверка кнопки "Язык"
-  status: pass
+ - summary: Проверка кнопки "Язык"
+   status: pass
 
-- summary: Проверка кнопки "Смена языка на английский"
-  status: pass
+ - summary: Проверка кнопки "Смена языка на английский"
+   status: pass
 
-- summary: Проверка кнопки "Смена языка на русский"
-  status: pass
+ - summary: Проверка кнопки "Смена языка на русский"
+   status: pass
 
-- summary: Проверка работы формы поиска
-  status: pass
+ - summary: Проверка работы формы поиска
+   status: pass
 
-- summary: Проверка работы фильтра по категориям
-  status: pass
+ - summary: Проверка работы фильтра по категориям
+   status: pass
 
-- summary: Проверка работы фильтра по имени производителя
-  status: pass
+ - summary: Проверка работы фильтра по имени производителя
+   status: pass
 
-- summary: Проверка работы формы фильтра по минимальной цене
-  status: pass
+ - summary: Проверка работы формы фильтра по минимальной цене
+   status: pass
 
-- summary: Проверка работы формы фильтра по максимальной цене
-  status: pass
+ - summary: Проверка работы формы фильтра по максимальной цене
+   status: pass
 
-- summary: Проверка работы кнопки "Следующая"
-  status: pass
+ - summary: Проверка работы кнопки "Следующая"
+   status: pass
 
-- summary: Проверка работы кнопки "Предыдущая"
-  status: pass
+ - summary: Проверка работы кнопки "Предыдущая"
+   status: pass
     
 bugreports:  
  - summary: Не работает Поиск, фильтры и пропадает кнопка "Следующая" если убрать галочку в чекбоксе "В наличии"
