@@ -1,64 +1,64 @@
 
 ---
 - summary: Проверка кнопки "Категория"
-  status: Pass
+  status: pass
 
 - summary: Добавление товара в корзину
-  status: Pass
+  status: pass
 
 - summary: Проверка работы счётчика на кнопке  "Корзина"
-  status: Pass
+  status: pass
 
 - summary: Проверка кнопки "Корзина"
-  status: Pass
+  status: pass
 
 - summary: Проверка кнопки "Продолжить покупки"
-  status: Pass
+  status: pass
 
 - summary: Проверка работы кнопки "Очистить корзину"
-  status: Pass
+  status: pass
 
 - summary: Проверка кнопки "Магазин"
-  status: Pass
+  status: pass
 
 - summary: Проверка работы кнопки "Удалить"
-  status: Pass
+  status: pass
 
 - summary: Проверка работы кнопки "Удалить"
-  status: Pass
+  status: pass
 
 - summary: Проверка кнопки "Оформить заказ"
-  status: Pass
+  status: pass
 
 - summary: Проверка кнопки "Язык"
-  status: Pass
+  status: pass
 
 - summary: Проверка кнопки "Смена языка на английский"
-  status: Pass
+  status: pass
 
 - summary: Проверка кнопки "Смена языка на русский"
-  status: Pass
+  status: pass
 
 - summary: Проверка работы формы поиска
-  status: Pass
+  status: pass
 
 - summary: Проверка работы фильтра по категориям
-  status: Pass
+  status: pass
 
 - summary: Проверка работы фильтра по имени производителя
-  status: Pass
+  status: pass
 
 - summary: Проверка работы формы фильтра по минимальной цене
-  status: Pass
+  status: pass
 
 - summary: Проверка работы формы фильтра по максимальной цене
-  status: Pass
+  status: pass
 
 - summary: Проверка работы кнопки "Следующая"
-  status: Pass
+  status: pass
 
 - summary: Проверка работы кнопки "Предыдущая"
-  status: Pass
+  status: pass
     
 bugreports:  
  - summary: Не работает Поиск, фильтры и пропадает кнопка "Следующая" если убрать галочку в чекбоксе "В наличии"
